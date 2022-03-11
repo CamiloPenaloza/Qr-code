@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Outfit:wght@100;300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:hsl(212, 45%, 89%)
+}
+
+.cont{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+}
+.container{
+    height: 525px;
+    box-sizing: border-box;
+    margin: 0 550px 0 550px;
+    padding: 20px;
+    box-shadow: 0 10px 30px #000;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+
+}
+
+.container img{
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.container h2{
+    font-family: Outfit;
+    color: hsl(218, 44%, 22%);
+}
+.container p{
+    font-family: outfit;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+#name {
+    font-family: Dancing Script;
+    font-size: 20px;
+    color: #000;
+
+}
+
+.footer{
+    justify-content: space-between;
+    text-align: center;
+    background-color:none;
+    font-family: Outfit;
+    list-style: none;
+}
+
+.footer  a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer ul {
+    list-style: none;
+}
+
